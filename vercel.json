@@ -3,11 +3,11 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/api/index.php"
+      "dest": "/plc_estate/$1"
     }
   ],
   "functions": {
-    "api/index.php": {
+    "plc_estate/index.php": {
       "runtime": "vercel-php@0.5.1"
     }
   }
