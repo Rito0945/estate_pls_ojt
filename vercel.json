@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/plc_estate/$1"
+      "dest": "/plc_estate/index.php"
     }
   ],
   "functions": {
